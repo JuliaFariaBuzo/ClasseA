@@ -1,0 +1,86 @@
+
+body{
+    font-family: inter;
+    background-color: #959191;
+    font-size: 20px;
+}
+
+/* NavBar */
+
+nav{
+    background-image: linear-gradient(to right, #007B31,#084621,#101010);
+}
+.navbar-brand{
+    font-family: italianno;
+    font-size: 45px;
+    color: white;
+}
+.nav-link{
+    font-size: 15px;
+    color: white;
+    font-weight: 200;
+}
+
+.nav-link:hover{
+    font-weight: 300;
+    color: rgb(179, 255, 128);
+}
+
+/* Corpo */
+
+.principal {
+    background: linear-gradient(to right,#101010, #10101000), url(imagens/img1.jpg);
+    color: white;
+    text-align: left;
+    padding: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 100%;
+}
+
+.principal h1{
+    font-size: 90px;
+    font-weight: bold;
+    text-shadow: 0.3rem 0.3rem #10101096;
+}
+
+.principal p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: justify;
+    width: 500px;
+}
+
+.principal a{
+    font-size: 25px;
+    width: 400px;
+    font-weight: bold;
+}
+
+.feature-box {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    background: #343a40;
+    color: white;
+    padding: 40px;
+}
+
+#footer{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#icone{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
