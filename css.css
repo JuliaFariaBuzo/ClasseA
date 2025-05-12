@@ -1,0 +1,200 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #cccaca;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-image: linear-gradient(to right, #007B31, #084621, #101010);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#tituloHeader h1 {
+    font-family: 'Italianno', cursive;
+    font-size: 45px;
+    margin: 0;
+}
+
+menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+menu a:hover {
+    color: rgb(179, 255, 128);
+    font-weight: 300;
+}
+
+/* Fale conosco*/
+#tituloArti01{
+    text-align: center;
+    font-size: 1.4em;
+    padding: 10px;
+}
+#bloco01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+}
+iframe {
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+#contatos {
+    max-width: 400px;
+    text-align: left;
+}
+
+#contatos #p {
+    margin-bottom: 15px;
+}
+
+#contatos p {
+    margin: 5px;
+}
+
+#contatos .item p:first-child {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+#idEstrelas {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 90px;
+    
+}
+#idEstrelas img{
+    width: 50px;
+}
+/*Duvidas frequentes*/
+#divTituloArti02{
+    text-align: center;
+    font-size: 1.4em;
+    padding: 10px;
+}
+#perguntas{
+    background-color: #868585;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#perguntas div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+#perguntas div:hover{
+    cursor: pointer;
+}
+#perguntas .resposta {
+    display: none;
+    padding: 10px 0;
+    color: #333;
+}
+#idEmail{
+    text-align: center;
+    padding: 20px;
+}
+.email {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    justify-content: center;
+}
+
+/*Feedback*/
+#divTituloArti03{
+    text-align: center;
+    font-size: 1.4em;
+    padding: 10px;
+}
+#feedback{
+    margin: 50px;
+}
+.nome p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.mensagem{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 90px;
+}
+.mensagem p{
+    padding: 20px; 
+    margin: 0px;
+}
+
+@media (max-width: 768px) {
+    p{
+        font-size: 18px;
+    }
+    #divTituloArti02, #tituloArti01, #divTituloArti03{
+        font-size: 1.2em;
+    }
+    #bloco01 {
+        flex-direction: column;
+        align-items: center;
+    }
+    #maps{
+        text-align: center;
+    }
+    #maps iframe {
+        max-width: 400px;
+    }
+    #contatos{
+        text-align: center;
+    }
+
+    #idEstrelas {
+    gap: 40px;   
+    }
+    #idEstrelas img{
+        width: 40px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    menu a {
+        margin: 5px 10px;
+    }
+}
