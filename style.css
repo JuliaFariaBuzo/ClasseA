@@ -203,3 +203,41 @@ iframe {
     padding: 20px; 
     margin: 0px;
 }
+.principal #cadentry{
+    color: white;
+    background-color: #007B31;
+    border: solid 2px #007B31;
+    border-radius: 5px;
+    text-align: center;
+}
+.cadastro {
+    background: linear-gradient(to right,#101010, #10101000), url(imagens/img3.jpg);
+    color: white;
+    text-align: left;
+    padding: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 100%;
+    background-size: cover;
+}
+#formcliente{
+    color: #007B31;
+    background-color: rgba(129, 129, 129, 0.712);
+    margin: 0 auto;
+    justify-content: center;
+    border: solid 2px #007B31;
+    border-radius: 10%;
+    text-align: center;
+}
+#formcliente a{
+    color: white;
+    background-color: #007B31;
+    border: solid 2px #007B31;
+    border-radius: 15%;
+    text-align: center;
+}
+.conta a{
+    border:solid 1px #084621;
+    color:white;
+    background-color: #084621;
+}
