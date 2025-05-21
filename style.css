@@ -58,6 +58,24 @@ nav{
     font-weight: bold;
 }
 
+.conteudo{
+    text-align: left;
+    padding: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 100%;
+}
+
+.banner{
+    background-color: #fcfcfc;
+    padding: 15px;
+    margin-right: 100px;
+}
+
+.estrelas{
+padding: 100%;
+text-align: center;
+}
 .feature-box {
     background: #f8f9fa;
     padding: 20px;
