@@ -27,6 +27,11 @@ nav {
     color: rgb(179, 255, 128);
 }
 
+.nav-link:active{
+    color: #ffffff;
+    font-weight: bold;
+}
+
 /* Corpo */
 
 .principal {
@@ -282,4 +287,11 @@ iframe {
     border: solid 1px #084621;
     color: white;
     background-color: #084621;
+}
+
+/*Frota*/
+
+.descricao{
+    margin: 120px;
+    text-align: center;
 }
