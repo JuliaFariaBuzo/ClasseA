@@ -80,10 +80,9 @@ nav {
     margin-right: 100px;
 }
 
-.estrelas {
-    padding: 100%;
+.estrelas ul{
+    font-size: 40px;
     text-align: center;
-    width: 350px;
 }
 
 .feature-box {
